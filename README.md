@@ -1,7 +1,7 @@
 # PAKDD2022
 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD2022), which will be held in Chengdu, China on May 16-19, 2022.
 
-# Pneumonia Detection using Deep Learning
+# Pneumonia Detection using Deep Learning & explaination using LIME
 
 ## Problem Statement
 
@@ -18,32 +18,18 @@ Chest X-ray images (anterior-posterior) were selected from retrospective cohorts
 <p align="center"><img height="350" width="700" src="Images/pneumonia_train.png"  ></p>
 
 ## Model used :
-**Here is a small comparison of all the models tested in the project:**
-
-<p align="center"><img height="350" width="700" src="Images/comparison.png"></p>
 
 - ### Convolutional Neural Network
 
 <p align="center"><img height="350" width="700" src="Images/cnn.png"></p>
 
-```
-624/624 [==============================] - 11s 18ms/step
-Loss of the model is -  0.30433156475042683
-624/624 [==============================] - 10s 15ms/step
-Accuracy of the model is -  91.98718070983887 %
-```
+
 <p align="center"><img height="350" width="700" src="Images/model_accuracy.png"></p>
 
 - ### Convolutional Neural Network(Different approach) :
 
 <p align="center"><img height="350" width="700" src="Images/accuracy_cnn_2.png"></p>
 
-```
-624/624 [==============================] - 30s 49ms/step
-Test Accuracy: 68.91%
-652/652 [==============================] - 338s 518ms/step
-Train Accuracy: 66.33%
-```
 
 - ### DenseNet :
 
@@ -51,43 +37,32 @@ Train Accuracy: 66.33%
 
 <p align="center"><img height="350" width="700" src="Images/densenetperf.png"></p>
 
-```
-624/624 [==============================] - 132s 211ms/step
-Test Accuracy: 87.18%
-652/652 [==============================] - 622s 954ms/step
-Train Accuracy: 86.22%
-```
+
 - ### VGG16 :
 
 <p align="center"><img height="350" width="700" src="Images/vgg16.png"></p>
 
 <p align="center"><img height="350" width="700" src="Images/vgg16_perf.png"></p>
 
-```
-624/624 [==============================] - 226s 363ms/step
-Test Accuracy: 66.19%
-652/652 [==============================] - 1608s 2s/step
-Train Accuracy: 82.63%
-```
-
 
 - ### ResNet :
 
 <p align="center"><img height="350" width="700" src="Images/resnet.png"></p>
 
-```
-624/624 [==============================] - 101s 162ms/step
-Test Accuracy: 73.40%
-652/652 [==============================] - 651s 999ms/step
-Train Accuracy: 88.92%
-```
 
 - ### InceptionNet :
 <p align="center"><img height="350" width="700" src="Images/inceptionnet.png"></p>
 
-```
-624/624 [==============================] - 41s 66ms/step
-Test Accuracy: 76.76%
-652/652 [==============================] - 295s 453ms/step
-Train Accuracy: 91.26%
-```
+
+## LIME Explaination :
+
+<p align="center"><img height="350" width="700" src="Images/lime.png"></p>
+
+## Ground Truth Bounding Boxes :
+
+<p align="center"><img height="350" width="700" src="Images/bbox.png"></p>
+
+## Grad-Cam :
+
+<p align="center"><img height="350" width="700" src="Images/grad-cam.png"></p>
+
