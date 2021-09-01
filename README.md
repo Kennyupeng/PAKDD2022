@@ -56,7 +56,7 @@ Chest X-ray images (anterior-posterior) were selected from retrospective cohorts
 
 ## LIME Explaination :
 
-<p align="center"><img height="700" width="700" src="Images/lime.png"></p>
+<p align="center"><img height="350" width="700" src="Images/lime.png"></p>
 
 ## Ground Truth Bounding Boxes :
 
