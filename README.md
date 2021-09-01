@@ -24,4 +24,70 @@ Chest X-ray images (anterior-posterior) were selected from retrospective cohorts
 
 - ### Convolutional Neural Network
 
-<p align="center"><img height="350" width="700" src="Assests/cnn.png"></p>
+<p align="center"><img height="350" width="700" src="Images/cnn.png"></p>
+
+```
+624/624 [==============================] - 11s 18ms/step
+Loss of the model is -  0.30433156475042683
+624/624 [==============================] - 10s 15ms/step
+Accuracy of the model is -  91.98718070983887 %
+```
+<p align="center"><img height="350" width="700" src="Images/model_accuracy.png"></p>
+
+- ### Convolutional Neural Network(Different approach) :
+
+<p align="center"><img height="350" width="700" src="Images/accuracy_cnn_2.png"></p>
+
+```
+624/624 [==============================] - 30s 49ms/step
+Test Accuracy: 68.91%
+652/652 [==============================] - 338s 518ms/step
+Train Accuracy: 66.33%
+```
+
+- ### DenseNet :
+
+<p align="center"><img height="350" width="700" src="Images/densenet.png"></p>
+
+<p align="center"><img height="350" width="700" src="Images/densenetperf.png"></p>
+
+```
+624/624 [==============================] - 132s 211ms/step
+Test Accuracy: 87.18%
+652/652 [==============================] - 622s 954ms/step
+Train Accuracy: 86.22%
+```
+- ### VGG16 :
+
+<p align="center"><img height="350" width="700" src="Images/vgg16.png"></p>
+
+<p align="center"><img height="350" width="700" src="Images/vgg16_perf.png"></p>
+
+```
+624/624 [==============================] - 226s 363ms/step
+Test Accuracy: 66.19%
+652/652 [==============================] - 1608s 2s/step
+Train Accuracy: 82.63%
+```
+
+
+- ### ResNet :
+
+<p align="center"><img height="350" width="700" src="Images/resnet.png"></p>
+
+```
+624/624 [==============================] - 101s 162ms/step
+Test Accuracy: 73.40%
+652/652 [==============================] - 651s 999ms/step
+Train Accuracy: 88.92%
+```
+
+- ### InceptionNet :
+<p align="center"><img height="350" width="700" src="Images/inceptionnet.png"></p>
+
+```
+624/624 [==============================] - 41s 66ms/step
+Test Accuracy: 76.76%
+652/652 [==============================] - 295s 453ms/step
+Train Accuracy: 91.26%
+```
