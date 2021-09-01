@@ -56,13 +56,13 @@ Chest X-ray images (anterior-posterior) were selected from retrospective cohorts
 
 ## LIME Explaination :
 
-<p align="center"><img height="350" width="700" src="Images/lime.png"></p>
+<p align="center"><img height="350" width="350" src="Images/lime.png"></p>
 
 ## Ground Truth Bounding Boxes :
 
-<p align="center"><img height="350" width="700" src="Images/bbox.png"></p>
+<p align="center"><img height="350" width="350" src="Images/bbox.png"></p>
 
 ## Grad-Cam :
 
-<p align="center"><img height="350" width="700" src="Images/grad-cam.png"></p>
+<p align="center"><img height="350" width="350" src="Images/grad-cam.png"></p>
 
