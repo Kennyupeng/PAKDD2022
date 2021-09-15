@@ -17,7 +17,7 @@
 > Only 2 categories (Pneumonia/Normal) will be covered for VinDr-CXR.
 > Chest X-ray images (anterior-posterior) were selected from. In this work, VinDr Research Group describe a dataset of more than 100,000 chest X-ray scans that were retrospectively collected from two major hospitals in Vietnam. Out of this raw data, we release 18,000 images that were manually annotated by a total of 17 experienced radiologists with 22 local labels of rectangles surrounding abnormalities and 6 global labels of suspected diseases. The released dataset is divided into a training set of 15,000 and a test set of 3,000. Each scan in the training set was independently labeled by 3 radiologists, while each scan in the test set was labeled by the consensus of 5 radiologists
 
-<p align="center"><img height="700" width="700" src="Images/VinDr_1.PNG"  ></p>
+<p align="center"><img height="300" width="300" src="Images/VinDr_1.PNG"  ></p>
 
 
 > In order to build a binary classifier, we will be only using the entries for training and test
@@ -26,9 +26,9 @@
         eg. If we are getting Pneumonia 
             Then 
                 COPD                   0
-                Lung tumor	           0
-                Pneumonia	             1
-                Tuberculosis	         0
+                Lung tumor	       0
+                Pneumonia	       1
+                Tuberculosis	       0
                 Other diseases	       0
                 No finding             0 
 
