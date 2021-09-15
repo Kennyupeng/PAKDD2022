@@ -25,12 +25,12 @@
 > To be more specific, we will filter out the global label that we want to retrieve
         eg. If we are getting Pneumonia 
             Then 
-               > COPD                  0
-               > Lung tumor	       0
-               > Pneumonia	       1
-               > Tuberculosis	       0
-               > Other diseases	       0
-               > No finding            00 
+> COPD                  0
+> Lung tumor	        0
+> Pneumonia	        1
+> Tuberculosis	        0
+> Other diseases        0
+> No finding            0 
 
 <p align="center"><img height="700" width="700" src="Images/data_filter.PNG"  ></p>
 ## Model used :
