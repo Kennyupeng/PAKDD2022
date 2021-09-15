@@ -19,6 +19,20 @@
 
 <p align="center"><img height="700" width="700" src="Images/VinDr_1.PNG"  ></p>
 
+
+> In order to build a binary classifier, we will be only using the entries for training and test
+> with Pneumonia Positive and No finding Positive respectively  
+> To be more specific, we will filter out the global label that we want to retrieve
+        eg. If we are getting Pneumonia 
+            Then 
+                COPD                   0
+                Lung tumor	           0
+                Pneumonia	             1
+                Tuberculosis	         0
+                Other diseases	       0
+                No finding             0 
+
+<p align="center"><img height="700" width="700" src="Images/data_filter.PNG"  ></p>
 ## Model used :
 
 - ### Convolutional Neural Network
